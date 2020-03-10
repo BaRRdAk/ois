@@ -1,0 +1,446 @@
+@media screen, (max-width: 1200px) {
+  .container {
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(20, auto);
+    grid-column-gap: 60px;
+    grid-row-gap: 1rem;
+  }
+
+  .header_container {
+    max-width: 1170px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 1rem;
+  }
+}
+@media (max-width: 560px) {
+  .container {
+    max-width: none;
+    min-width: 320px;
+    display: block;
+  }
+}
+.container,
+.header_container {
+  margin: auto;
+}
+
+.block_1 .cont_1 {
+  grid-column: 1/5;
+  grid-row: 14/18;
+}
+.block_1 .cont_2 {
+  grid-column: 10/13;
+  grid-row: 14;
+}
+
+.block_2 .cont_1 {
+  grid-column: 1/5;
+  grid-row: 9/12;
+}
+.block_2 .cont_2 {
+  grid-column: 1/5;
+  grid-row: 17;
+}
+.block_2 .cont_3 {
+  grid-column: 9/13;
+  grid-row: 11/18;
+}
+
+.block_3 .cont_1 {
+  grid-column: 1/5;
+  grid-row: 10;
+}
+
+.block_4 .cont_1 {
+  grid-column: 1/5;
+  grid-row: 10/20;
+}
+.block_4 .cont_3 {
+  grid-column: 9/13;
+  grid-row: 16;
+}
+
+.block_5 .cont_1 {
+  grid-column: 1/13;
+  grid-row: 2;
+}
+.block_5 .cont_2 {
+  grid-column: 1/13;
+  grid-row: 4;
+}
+.block_5 .cont_3 {
+  grid-column: 1/5;
+  grid-row: 11;
+}
+.block_5 .cont_4 {
+  grid-column: 9/13;
+  grid-row: 14;
+}
+.block_5 .cont_5 {
+  grid-column: 1/5;
+  grid-row: 17;
+}
+.block_5 .cont_6 {
+  grid-column: 9/13;
+  grid-row: 19;
+}
+
+.block_7 .cont_1 {
+  grid-column: 1/5;
+  grid-row: 1/8;
+}
+.block_7 .cont_2 {
+  grid-column: 1/5;
+  grid-row: 12;
+}
+.block_7 .cont_3 {
+  grid-column: 9/13;
+  grid-row: 7/12;
+}
+
+footer .container,
+.block_6 .container,
+.block_8 .container {
+  display: block;
+}
+
+@font-face {
+  font-family: "Segoe UI Bold";
+  src: url("../fonts/SegoeUI-Bold.eot");
+  src: url("../fonts/SegoeUI-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUI-Bold.woff") format("woff"), url("../fonts/SegoeUI-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura PT Book";
+  src: url("../fonts/FuturaPT-Book.eot");
+  src: url("../fonts/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Book.woff") format("woff"), url("../fonts/FuturaPT-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura PT Medium";
+  src: url("../fonts/FuturaPT-Medium.eot");
+  src: url("../fonts/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura PT Demi";
+  src: url("../fonts/FuturaPT-Demi.eot");
+  src: url("../fonts/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Demi.woff") format("woff"), url("../fonts/FuturaPT-Demi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura PT Bold";
+  src: url("../fonts/FuturaPT-Bold.eot");
+  src: url("../fonts/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Bold.woff") format("woff"), url("../fonts/FuturaPT-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura PT Heavy";
+  src: url("../fonts/FuturaPT-Heavy.eot");
+  src: url("../fonts/FuturaPT-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Heavy.woff") format("woff"), url("../fonts/FuturaPT-Heavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen, (max-width: 1200px) {
+  .block_1,
+.block_4,
+.block_5,
+.block_6,
+.block_7 {
+    height: 810px;
+  }
+
+  .header {
+    background: url("../img/OIS.jpg") center top no-repeat, linear-gradient(180deg, #098664 0%, #2B006D 100%);
+    height: 1080px;
+  }
+
+  .block_1 {
+    background: url("../img/group_368.png") no-repeat center bottom 20px;
+  }
+
+  .block_2 {
+    background: url("../img/group_387.png") no-repeat center top, linear-gradient(180deg, #7b5798 0%, #69538c 83%, #FFFFFF 83%);
+    height: 980px;
+  }
+
+  .block_3 {
+    height: 640px;
+    background: url("../img/mask_group_4.png") no-repeat center bottom, url("../img/group_383.png") no-repeat center bottom 203px, url("../img/group_390.png") no-repeat center bottom 20px;
+  }
+
+  .block_4 {
+    background: url("../img/group_388.png") no-repeat center top, url("../img/group_381.png") no-repeat center top 461px, linear-gradient(180deg, #03CC7A 0%, #009A69 100%);
+  }
+
+  .block_5 {
+    background: url("../img/group_385.png") no-repeat center bottom;
+  }
+
+  .block_6 {
+    background: linear-gradient(180deg, #7b5798 0%, #69538c 100%);
+  }
+
+  .block_7 {
+    background: url("../img/group_389.png") no-repeat center top;
+  }
+
+  .block_8 {
+    background: #03CC7A;
+  }
+}
+.header {
+  color: white;
+  background-size: cover;
+}
+
+.title {
+  font: 50px/67px "Segoe UI Bold";
+  margin-top: 350px;
+}
+
+.description {
+  font: 50px/64px "Futura PT Medium";
+  letter-spacing: 2px;
+}
+
+.logos {
+  position: relative;
+  top: 90px;
+}
+
+.plus {
+  margin: 0 40px 20px;
+}
+
+.block_1 .cont_1 {
+  font: 18px/23px "Futura PT Demi";
+}
+.block_1 .cont_2 {
+  font: 25px/33px "Futura PT Book";
+  text-align: center;
+}
+.block_1 .cont_2 ul {
+  list-style: none;
+  margin-left: 0;
+}
+.block_1 .cont_2 ul li {
+  line-height: 50px;
+}
+
+.block_2 {
+  color: white;
+  font: 20px/26px "Futura PT Medium";
+}
+.block_2 .cont_1 ul {
+  list-style: square;
+  padding-left: 30px;
+}
+.block_2 .cont_1 ul li {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+}
+.block_2 .cont_1 ul li span {
+  color: white;
+}
+.block_2 .cont_2 ul {
+  list-style-image: url("../img/square-green.png");
+  padding-left: 60px;
+}
+.block_2 .cont_2 ul li {
+  padding-left: 10px;
+}
+.block_2 .cont_2 ul li span {
+  line-height: 65px;
+  vertical-align: 10px;
+}
+.block_2 .cont_3 {
+  font: 18px/23px "Futura PT Demi";
+}
+
+.block_3 .cont_1 {
+  font: 18px/23px "Futura PT Demi";
+}
+
+.block_4 {
+  color: white;
+}
+.block_4 .cont_1 ul {
+  list-style: none;
+  font: 20px/26px "Futura PT Medium";
+  text-transform: uppercase;
+  line-height: 70px;
+}
+.block_4 .cont_1 ul li:first-child {
+  font: 25px/33px "Futura PT Bold";
+}
+.block_4 .cont_1 ul li:last-child {
+  font: 25px/33px "Futura PT Bold";
+}
+.block_4 .cont_3 {
+  font: 18px/23px "Futura PT Demi";
+}
+
+.block_5 .cont_1 {
+  font: 25px/33px "Futura PT Bold";
+  text-align: center;
+}
+.block_5 .cont_2 {
+  font: 25px/33px "Futura PT Medium";
+  letter-spacing: 1px;
+  text-align: center;
+}
+.block_5 .cont_3,
+.block_5 .cont_4,
+.block_5 .cont_5,
+.block_5 .cont_6 {
+  font: 18px/23px "Futura PT Demi";
+}
+.block_5 .cont_3,
+.block_5 .cont_5 {
+  text-align: right;
+}
+
+.block_6 {
+  color: white;
+}
+.block_6 .container {
+  height: 100%;
+  background: url("../img/repeat-grid.png") no-repeat right 20px top 80px;
+  padding-top: 80px;
+}
+.block_6 .cont_1 {
+  font: 25px/33px "Futura PT Medium";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.block_6 .cont_2 {
+  font: 18px/23px "Futura PT Demi";
+}
+.block_6 .cont_2 ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 70px;
+}
+.block_6 .cont_2 ul li {
+  margin-bottom: 30px;
+}
+.block_6 .cont_2 ul li span {
+  vertical-align: 20px;
+  padding-left: 20px;
+}
+.block_6 .cont_3 {
+  font: 18px/23px "Futura PT Demi";
+}
+
+.block_7 {
+  border-top: solid 1px #69538c;
+}
+.block_7 h3 {
+  font: 25px/33px "Futura PT Heavy";
+}
+.block_7 .cont_1 a {
+  text-decoration: none;
+  font: 25px/33px "Futura PT Medium";
+  color: black;
+}
+.block_7 .cont_1 a span {
+  vertical-align: 20px;
+  padding-left: 20px;
+}
+.block_7 .cont_2 a.phone {
+  display: block;
+  text-decoration: none;
+  font: 25px/33px "Futura PT Heavy";
+  color: #4D0986;
+}
+.block_7 .cont_2 a.mail {
+  display: block;
+  text-decoration: none;
+  font: 18px/23px "Futura PT Demi";
+  color: black;
+}
+.block_7 .cont_3 ul {
+  list-style: none;
+  padding-left: 0;
+}
+.block_7 .cont_3 ul li {
+  margin-bottom: 20px;
+}
+
+.block_8 {
+  text-align: center;
+  font: 25px/33px "Futura PT Medium";
+  letter-spacing: 1.25px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.block_8 .text {
+  padding: 20px 0;
+}
+
+footer .container {
+  display: flex;
+  width: 880px;
+  margin: 20px auto;
+}
+footer .copyright {
+  font: 12px/16px "Futura PT Book";
+  color: #707070;
+  margin-left: 20px;
+}
+
+@media (max-width: 560px) {
+  .block {
+    background-image: none;
+    height: auto;
+    padding: 20px;
+  }
+
+  .header {
+    background: linear-gradient(180deg, #098664, #2B006D);
+    height: auto;
+  }
+
+  .block_2 {
+    background: linear-gradient(180deg, #7b5798, #69538c);
+  }
+
+  .block_4 {
+    background: linear-gradient(180deg, #03CC7A, #009A69);
+  }
+
+  .block_6 {
+    background: linear-gradient(180deg, #7b5798, #69538c);
+  }
+
+  .block_8 {
+    background: #03CC7A;
+  }
+
+  .block_5 .cont_3,
+.block_5 .cont_5 {
+    text-align: left;
+  }
+
+  .title {
+    margin-top: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
